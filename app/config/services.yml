@@ -1,0 +1,5 @@
+services:
+    rule.registry:
+        class: Sylius\Component\Registry\ServiceRegistry
+        arguments:
+            - AppBundle\Rule\RuleInterface
